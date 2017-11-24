@@ -1,0 +1,205 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom equals footer height */
+  margin-bottom: 60px;
+  background-image: url("../images/doodles.png");
+}
+
+/*FOOTER*/
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+.footer p {
+    margin: 20px 0;
+    text-align: center;
+    color: #4aaaa5bf;
+}
+
+/*FONTS/HEADINGS*/
+h3, .panel-default > h3.panel-heading {
+	letter-spacing: 3px;
+	color: #4aaaa5;
+}
+
+.navbar-default a.navbar-brand {
+	transition: all 0.50s;
+}
+
+h3, li>a, p, label, button {
+	font-family: "Lora", serif;
+	transition: all 0.25s;
+}
+
+h3, li > a {
+	text-transform: uppercase;
+}
+
+label, button {
+	color: #555555;
+}
+
+/*NAVBAR*/
+.navbar {
+  min-height: 80px;
+  margin-bottom: 30px;
+}
+
+.navbar-brand {
+  padding: 0 15px;
+  height: 80px;
+  line-height: 80px;
+}
+
+a.navbar-brand {
+	font-size: 40px;
+	font-family: "Lora", serif;
+	letter-spacing: 5px;
+}
+
+.navbar-default a.navbar-brand {
+	color: white;
+}
+
+.navbar-toggle {
+  margin-top: 23px;
+  padding: 9px 10px !important;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    padding-top: 26.5px;
+    padding-bottom: 26.5px;
+    line-height: 27px;
+  }
+}
+
+.navbar.navbar-default {
+	background-color: #4aaaa5bf;
+}
+
+.navbar-default .navbar-nav > li.inactive > a {
+	color: #fff;
+}
+
+.navbar-default .navbar-nav > li.inactive > a:hover {
+	color: #555555;
+}
+
+.navbar-default .navbar-nav > li.active > a:hover {
+	color: white;
+}
+
+/*CONNECT*/
+
+#connect .social-icons img {
+	border-radius: 5px;
+    display: inline-block;
+    height: 60px;
+    margin: 5px;
+    transition: all 0.25s;
+}
+
+#connect .social-icons img:hover {
+	opacity: 0.5;
+}
+
+/*ABOUT*/
+
+#about > .panel.panel-default {
+	padding-bottom: 20px;
+}
+
+#about > .panel.panel-default > .row > .col-sm-4.col-xs-12 {
+	padding-right: 0;
+}
+
+h3.panel-heading {
+	padding: 15px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+#headshot {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+/*.row {
+	margin: 0;
+	padding: 0 15px;
+}*/
+
+.panel-title {
+	font-size: 18px;
+	padding: 5px;
+}
+
+.thumbnail {
+	max-width: 90%;
+}
+
+.tagline {
+	color: #4aaaa5;
+}
+
+
+/*PORTFOLIO*/
+
+#portfolio .col-xs-12.col-md-6 {
+	max-width: 100%;
+	max-height: 100%;
+	padding: 0;
+}
+
+#portfolio .row {
+	padding: 0 30px;
+}
+
+#portfolio img {
+	z-index: 1;
+	border-radius: 5px;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#portfolio p {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 10px;
+	z-index: 2;
+	background-color: #4aaaa5bf;
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	padding: 10px 0;
+}
+
+/*CONTACT*/
+form {
+	padding: 0px 25px 20px 25px;
+}
+
+.btn-default {
+	background-color: #4aaaa5;
+	color: white;
+	border: none;
+}
+
+.form-control {
+	font-family: "Lora", serif;
+	color: #4aaaa5;
+	font-size: 14px;
+}
+
+
